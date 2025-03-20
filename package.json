@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.8",
+    "@mui/material": "^6.4.8",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.14.5"
+    "@babel/preset-react": "^7.26.3"
   }
 }
