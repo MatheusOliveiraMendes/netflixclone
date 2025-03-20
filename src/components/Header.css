@@ -8,8 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px ;
-    background:  transparent;
+    padding: 0 30px;
+    background: transparent;
     transition: all ease 0.5s;
 }
 
@@ -25,11 +25,95 @@ header.black {
     height: 100%;
 }
 
-.header--user {
-    height: 50%;
+.header--nav {
+    flex: 1; 
+    margin-left: 30px; 
 }
 
-.header--user img {
-    height: 100%;
+.header--nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header--nav ul li {
+    margin-right: 20px;
+}
+
+.header--nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.header--nav ul li a:hover {
+    color: #e50914;
+}
+
+.header--user {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.header--search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header--search img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.header--search:hover {
+    color: #e50914; 
+}
+
+.header--kids {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header--kids:hover {
+    color: #e50914; 
+}
+
+.header--notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header--notifications:hover {
+    color: #e50914; 
+}
+
+.header--profile {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    text-decoration: none;
+}
+
+.header--profile img {
+    height: 30px;
     border-radius: 3px;
+}
+
+.header--dropdown-icon {
+    transition: color 0.3s ease;
+}
+
+.header--profile:hover .header--dropdown-icon {
+    color: #e50914; 
 }
